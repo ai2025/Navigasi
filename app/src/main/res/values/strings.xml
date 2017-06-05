@@ -1,12 +1,22 @@
 <resources>
     <string name="app_name">Navigasi</string>
-    <string name="title_activity_nav1">Nav1Activity</string>
+    <string name="title_activity_nav1">Navigasi 1</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title_activity_nav2">Nav2Activity</string>
-    <string name="title_activity_nav3">Nav3Activity</string>
-    <string name="title_activity_nav4">Nav4Activity</string>
+    <string name="title_activity_nav2">Navigasi 2</string>
+    <string name="title_activity_nav3">Navigasi 3</string>
+    <string name="title_activity_nav4">Navigasi 4</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="data_diri">
+        <item>Nama    : Aisyatush Shofiah</item>
+        <item>Kelas   : XI RPL 2</item>
+        <item>Nomor   : 01</item>
+        <item>NIS     : 4654/1373.070</item>
+        <item>Sekolah : SMK Telkom Malang</item>
+    </string>
 </resources>

@@ -132,24 +132,29 @@ public class Nav1Activity extends AppCompatActivity {
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+
+            if (position == 0) {
+                return new Nav1F1Fragment();
+            } else if (position == 1) {
+                return new Nav1F2Fragment();
+            } else {
+                return PlaceholderFragment.newInstance(position + 1);
+            }
         }
 
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 2;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "Foto Diri";
                 case 1:
-                    return "SECTION 2";
-                case 2:
-                    return "SECTION 3";
+                    return "Data Diri";
             }
             return null;
         }

@@ -37,7 +37,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="30dp"
-        android:text="Navigation 1"
+        android:text="Navigasi 1"
         android:textAllCaps="false"
         android:textSize="8pt" />
 
@@ -48,8 +48,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btnNav1"
-        android:layout_marginTop="30dp"
-        android:text="Navigation 2"
+        android:text="Navigasi 2"
         android:textAllCaps="false"
         android:textSize="8pt" />
 
@@ -60,8 +59,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btnNav2"
-        android:layout_marginTop="30dp"
-        android:text="Navigation 3"
+        android:text="Navigasi 3"
         android:textAllCaps="false"
         android:textSize="8pt" />
 
@@ -72,8 +70,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btnNav3"
-        android:layout_marginTop="30dp"
-        android:text="Navigation 4"
+        android:text="Navigasi 4"
         android:textAllCaps="false"
         android:textSize="8pt" />
 
@@ -83,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:text="Exit"
+        android:text="Keluar"
         android:textAllCaps="false" />
 
 </RelativeLayout>
