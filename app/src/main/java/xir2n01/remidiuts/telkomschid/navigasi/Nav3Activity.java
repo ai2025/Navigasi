@@ -36,9 +36,8 @@ public class Nav3Activity extends AppCompatActivity {
         spinner.setAdapter(new MyAdapter(
                 toolbar.getContext(),
                 new String[]{
-                        "Section 1",
-                        "Section 2",
-                        "Section 3",
+                        "Foto Diri",
+                        "Data Diri",
                 }));
 
         spinner.setOnItemSelectedListener(new OnItemSelectedListener() {
@@ -46,9 +45,20 @@ public class Nav3Activity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 // When the given dropdown item is selected, show its contents in the
                 // container view.
+
+                Fragment fragment;
+
+                if (position == 0) {
+                    fragment = new Nav3F1Fragment();
+                } else if (position == 1) {
+                    fragment = new Nav3F2Fragment();
+                } else {
+                    fragment = PlaceholderFragment.newInstance(position + 1);
+                }
+
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
-                        .commit();
+                        .replace(R.id.container, fragment)
+                        .commitNow();
             }
 
             @Override
